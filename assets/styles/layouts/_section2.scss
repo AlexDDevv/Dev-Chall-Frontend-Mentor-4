@@ -1,0 +1,32 @@
+.section2 {
+    text-align: center;
+    margin-top: 100px;
+    padding: 20px;
+
+    h2 {
+        margin-bottom: 10px;
+    }
+    p {
+        width: 40%;
+        margin: 0 auto;
+        font-size: 1rem;
+        margin-bottom: 90px;
+
+        @media screen and (max-width: 715px) {
+            width: 265px;
+            margin-bottom: 60px;
+        }
+    }
+    .devices {
+        width: 60%;
+        margin: 0 auto;
+
+        @media screen and (max-width: 450px) {
+            width: 100%;
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+}
